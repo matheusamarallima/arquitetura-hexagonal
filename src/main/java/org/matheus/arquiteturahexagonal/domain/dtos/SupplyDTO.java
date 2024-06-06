@@ -1,4 +1,4 @@
 package org.matheus.arquiteturahexagonal.domain.dtos;
 
-public class SupplyDTO {
+public record SupplyDTO(double quantidade) {
 }
