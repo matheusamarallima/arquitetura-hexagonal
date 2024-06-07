@@ -9,7 +9,6 @@ import java.util.List;
 public interface ProductServicePort {
 
     List<ProductDTO> searchProducts();
-
     void createProduct(ProductDTO productDTO);
     void updateSupply(String sku, SupplyDTO supplyDTO) throws NotFoundException;
 }

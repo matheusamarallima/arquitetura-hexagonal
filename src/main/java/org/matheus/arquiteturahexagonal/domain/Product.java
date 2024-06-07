@@ -22,6 +22,10 @@ public class Product {
         this.quant = productDTO.quant();
     }
 
+    public Product(UUID cod, String sku, String name, Double price, Double quant) {
+    }
+
+
     public static ProductDTO toProductDTO(Product product) {
         ProductDTO dto = new ProductDTO(product.cod, product.SKU, product.name, product.price, product.quant);
         return dto;
